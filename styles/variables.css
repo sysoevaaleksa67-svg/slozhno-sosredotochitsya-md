@@ -1,0 +1,24 @@
+/*
+  Переменные для вашего проекта
+  и их переопределение под различные устройства
+*/
+:root {
+  --bg-image: url('../images/cover-image.png');
+  --accent-color:#ff0070;
+  --accent-border-hover: rgba(255, 0, 112, 0.4);
+  --base-color:#000028;
+  --title-size-min:clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-size-max:clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --title-color:#DB00FF;
+  --header-title-shadow: 4px 4px 0 var(--accent-color);
+  --footer-title-shadow: 2px 2px 0px 0px var(--accent-color);
+  --text-size:1.12rem;
+  --title-weight:700;
+  --text-weight:400;
+  --text-color:#F1B2CE;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+
+
+
+}
