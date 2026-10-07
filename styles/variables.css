@@ -12,13 +12,9 @@
   --title-color:#DB00FF;
   --header-title-shadow: 4px 4px 0 var(--accent-color);
   --footer-title-shadow: 2px 2px 0px 0px var(--accent-color);
-  --text-size:1.12rem;
+  --text-size:1.125rem;
   --title-weight:700;
   --text-weight:400;
   --text-color:#F1B2CE;
   --font-mono: 'IBM Plex Mono', monospace;
-
-
-
-
 }
