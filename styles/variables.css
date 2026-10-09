@@ -17,4 +17,11 @@
   --text-weight:400;
   --text-color:#F1B2CE;
   --font-mono: 'IBM Plex Mono', monospace;
+  --main-gap:10px;
+}
+
+@media(min-width:768px) {
+  :root{
+     --main-gap:20px;
+  }
 }
