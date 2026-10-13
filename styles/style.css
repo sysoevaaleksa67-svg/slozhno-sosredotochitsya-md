@@ -6,7 +6,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed; /*чтобы изображение оставалось на месте при прокрутке*/
-  background-color: var(--base-color);
+  background-color: var(--bg-color);
   font-family: var(--font-mono);
   min-height: 100vh;
 }
@@ -47,7 +47,7 @@
   z-index: 5;
 }
 
-.decor-frame {
+.header__decor-rec {
   position: absolute;
   font-size: 18px;
   text-transform: uppercase;
@@ -57,7 +57,7 @@
   z-index: 2;
 }
 
-.decor-frame::after {
+.header__decor-rec::after {
   content: "";
   position: absolute;
   top: 6px;
@@ -142,7 +142,7 @@
 }
 
 .main_content-title {
-  color: var(--accent-color);
+  color: var(--content-color);
   font-weight: var(--title-weight);
   font-size: var(--text-size);
 }
@@ -248,7 +248,7 @@
     align-self: start;
   }
 
-  .decor-frame::after {
+  .header__decor-rec:after {
     top: 8px;
     right: -20px;
   }

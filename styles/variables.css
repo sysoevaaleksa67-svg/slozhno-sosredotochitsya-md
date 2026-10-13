@@ -7,6 +7,7 @@
   --accent-color: #ff0070;
   --accent-border-hover: rgba(255, 0, 112, 0.4);
   --base-color: #000028;
+  --bg-color:var(--base-color);
   --title-size-min: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --title-size-max: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --title-color: #db00ff;
@@ -15,6 +16,7 @@
   --text-size: 1.125rem;
   --title-weight: 700;
   --text-weight: 400;
+  --content-color:var(--accent-color);
   --text-color: #f1b2ce;
   --font-mono: "IBM Plex Mono", monospace;
   --main-gap: 10px;

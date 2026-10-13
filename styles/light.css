@@ -15,22 +15,25 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-image: url("../images/cover-image-light.png");
-  --base-color: #fff1f7;
+  --base-color: #353430;
+  --bg-color: #fff1f7;
   --title-color: #ffc2e6;
+  --content-color: var(--base-color);
   --accent-color: #ff8dcb;
   --header-title-shadow: 4px 4px 0 var(--accent-color);
-  --footer-title-shadow: 2px 2px 0px 0px var(--accent-color);
-  --text-color: #353430;
+  --footer-title-shadow: 2px 2px 0px #ff0070;
+  --text-color: var(--base-color);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --bg-image: url("../images/cover-image-light.png");
-    --base-color: #fff1f7;
+    --base-color: #353430;
+    --bg-color: #fff1f7;
     --title-color: #ffc2e6;
     --accent-color: #ff8dcb;
     --header-title-shadow: 4px 4px 0 var(--accent-color);
-    --footer-title-shadow: 2px 2px 0px 0px var(--accent-color);
-    --text-color: #353430;
+    --footer-title-shadow: 2px 2px 0px #ff0070;
+    --text-color: var(--base-color);
   }
 }
