@@ -14,24 +14,23 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-image: url('../images/cover-image-light.png');
- --base-color:#FFF1F7;
- --title-color:#FFC2E6;
- --accent-color:#FF8DCB;
- --header-title-shadow: 4px 4px 0 var(--accent-color);
- --footer-title-shadow: 2px 2px 0px 0px var(--accent-color);
- --text-color:#353430;
-
+  --bg-image: url("../images/cover-image-light.png");
+  --base-color: #fff1f7;
+  --title-color: #ffc2e6;
+  --accent-color: #ff8dcb;
+  --header-title-shadow: 4px 4px 0 var(--accent-color);
+  --footer-title-shadow: 2px 2px 0px 0px var(--accent-color);
+  --text-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
-  :root { 
- --bg-image: url('../images/cover-image-light.png');
- --base-color:#FFF1F7;
- --title-color:#FFC2E6;
- --accent-color:#FF8DCB;
- --header-title-shadow: 4px 4px 0 var(--accent-color);
- --footer-title-shadow: 2px 2px 0px 0px var(--accent-color);
- --text-color:#353430;}
-
+  :root {
+    --bg-image: url("../images/cover-image-light.png");
+    --base-color: #fff1f7;
+    --title-color: #ffc2e6;
+    --accent-color: #ff8dcb;
+    --header-title-shadow: 4px 4px 0 var(--accent-color);
+    --footer-title-shadow: 2px 2px 0px 0px var(--accent-color);
+    --text-color: #353430;
+  }
 }
