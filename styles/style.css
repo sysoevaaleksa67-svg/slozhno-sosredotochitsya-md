@@ -354,6 +354,7 @@ align-items: center;
   .main_content-section:nth-child(even) .main_content-title {
     grid-column: 1;
     grid-row: 1;
+    width: 315px;
   }
 
   .main_content-section:nth-child(even) .main_content-description {
@@ -364,9 +365,6 @@ align-items: center;
     grid-template-columns: 314.96px auto;
   }
 
-  .main_content-section:nth-child(even) .main_content-title {
-    width: 315px;
-  }
 
   .main_content-title {
     width:315px;
